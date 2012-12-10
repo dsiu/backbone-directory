@@ -15,8 +15,6 @@ var HomeView = Backbone.Marionette.ItemView.extend(
 
     initialize:function () {
       console.log('Initializing Home View');
-      //        this.template = _.template(directory.utils.templateLoader.get('home'));
-      //        this.template = templates['Home'];
     },
 
     events:{
@@ -30,7 +28,6 @@ var HomeView = Backbone.Marionette.ItemView.extend(
 
     showMeBtnClick:function () {
 //      app.headerView.search();
-      console.log('showMeBtnClick');
     }
 
   });

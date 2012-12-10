@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+      <title>Backbone.js and Twitter Bootstrap Sample App</title>
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+  <style>
+    body {
+      padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+    }
+  </style>
+  <link href="stylesheets/app.css" rel="stylesheet">
+
+  <script>
+    // for debugging
+    window.brunch = window.brunch || {};
+    window.brunch['auto-reload'] = {enabled : true};
+  </script>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="container">
+  <div class="row">
+    <div id="content" class="span12>"></div>
+  </div>
+
+</div>
+
+<script src="javascripts/vendor.js"></script>
+<script src="javascripts/app.js"></script>
+<script>require('initialize');</script>
+
+</body>
+</html>
