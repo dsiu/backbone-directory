@@ -1,0 +1,12 @@
+{ "development":
+  {
+      "driver":   "mongodb",
+      "url":    "mongodb://localhost/backbone-directory"
+  }
+, "test":
+  { "driver":   "memory"
+  }
+, "production":
+  { "driver":   "memory"
+  }
+}

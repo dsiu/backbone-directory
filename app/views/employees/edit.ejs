@@ -1,0 +1,9 @@
+<div class="page-header"><h1>Edit employee</h1></div>
+
+<% form_for(employee, {action: path_to.employee(employee), method: 'PUT', id: "employee_form", class: 'form-horizontal'}, function (form) { %>
+    <%- partial('employees/form.ejs', {locals: {form: form, employee: employee}}) %>
+    <div class="form-actions">
+        <%- form.submit('<i class="icon-ok icon-white"></i> Update employee', {class: 'btn btn-primary'}) %> or
+        <%- link_to('Cancel', path_to.employee(employee), {class: 'btn'}) %>
+    </div>
+<% });%>
