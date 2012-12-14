@@ -4,7 +4,7 @@ var HomeView = require('./views/home');
 var HeaderView = require('./views/header');
 var ContactView = require('./views/contact');
 var EmployeeView = require('./views/employee');
-var Employee = require('./models/employee');
+var Employee = require('./models/employee').Employee;
 
 DirectoryApp.addRegions(
   {

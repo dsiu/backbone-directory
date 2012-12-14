@@ -1,7 +1,6 @@
 $(function() {
 
   var DirectoryApp = require('./directory_app');
-  var DirectoryAppHeader = require('./directory_app.header');
   var DirectoryAppRouting = require('./directory_app.routing');
 
 //  DirectoryApp.Routing = DirectoryAppRouting;

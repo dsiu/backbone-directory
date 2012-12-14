@@ -15,7 +15,7 @@ var ContactView = Backbone.Marionette.ItemView.extend(
 
     initialize:function () {
       console.log('Initializing Contact View');
-    },
+    }
   });
 
 module.exports = ContactView;

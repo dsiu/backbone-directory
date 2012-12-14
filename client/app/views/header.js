@@ -8,8 +8,7 @@
 
 
 var headerViewTmpl = require('./templates/header-view-template');
-var Employee = require('../models/employee');
-var EmployeeCollection = require('../models/employee-collection');
+var EmployeeCollection = require('../models/employee').EmployeeCollection;
 
 var EmployeeListView = require('./employee-list');
 
