@@ -38,17 +38,20 @@ DirectoryApp.contact = function() {
 DirectoryApp.employeeDetails = function (id) {
   console.log('employeeDetails id = ' + id);
   var employee = new Employee({id : id});
+
   employee.fetch(
     {
       success : function (data) {
         // Note that we could also 'recycle' the same instance of EmployeeFullView
         // instead of creating new instances
-        $('#content').html(new EmployeeView({model : data}).render().el);
+        var employeeView = new EmployeeView({model:data});
+        DirectoryApp.content.show(employeeView);
       },
       error : function(err) {
         console.log(err);
       }
     });
+
 };
 
 
