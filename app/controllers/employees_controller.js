@@ -91,3 +91,6 @@ function loadEmployee() {
         }
     }.bind(this));
 }
+
+// share the loadEmployee()
+publish('loadEmployee', loadEmployee);

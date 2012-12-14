@@ -44,8 +44,8 @@ var EmployeeCollection = exports.EmployeeCollection = Backbone.Collection.extend
 var EmployeeReportCollection = exports.EmployeeReportCollection = exports.EmployeeCollection.extend(
   {
     url : function()  {
-      // return '/employees/' + this.employee.id + '/reports';
-      return '/employees';
+      return '/employees/' + this.employee.id + '/reports';
+//      return '/employees';
     },
 
     initialize : function(options) {

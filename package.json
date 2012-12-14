@@ -10,6 +10,7 @@
   , "jugglingdb":       "0.1.13"
   , "coffee-script":    ">= 1.1.1"
   , "mongodb":    "*"
+  , "underscore": "*"
   },
   "devDependencies":
   { "nodeunit":         "*"
